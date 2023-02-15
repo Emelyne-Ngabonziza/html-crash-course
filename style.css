@@ -1,11 +1,19 @@
+body{
+    padding: 20px;
+}
 table{
     margin-left: 25px;
     width:70%; 
 }
-table, tr, td{
+table, tr, th, td{
     border:1px solid black; 
     border-collapse: collapse;
 }
-tr,td{
+table, tr, th, td{
     padding:20px;
+}
+th{
+    font-size: 24px;
+    font-style: bold;
+    text-align: left;
 }
